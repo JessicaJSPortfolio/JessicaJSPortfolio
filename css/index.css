@@ -19,7 +19,7 @@ body{
 }
 
 #branding h1{
-  font-size: 135px;
+  font-size: 138px;
   font-weight: bold;
   margin: 0;
 }
@@ -34,7 +34,7 @@ header{
   margin-bottom: 10px;
 }
 
-header a{
+.index-header a{
   text-decoration: none;
   text-transform: uppercase;
   color: black;
@@ -54,6 +54,23 @@ header li{
 
 header li:hover{
     text-decoration: underline;
+}
+
+.small-menu{
+  padding: 4px 0 4px 40%;
+  width: 100%;
+  background-color: white;
+  border-bottom: solid red;
+}
+
+.small-menu a{
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+
+.construction{
+  margin: 150px 0 150px 32%;
 }
 
 .social-media-header img{
