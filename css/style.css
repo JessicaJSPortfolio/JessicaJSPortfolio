@@ -102,9 +102,9 @@ h1{ font-size:2em;  line-height:1.1;  text-align:center;  margin-top:0.8rem}
 
  .video1 iframe, .video2 iframe{ margin-bottom:3rem}
 
- .columns{ height:60vh;  display:flex;  justify-content:space-around}
+ .columns{ height:55vh;  display:flex;  justify-content:space-around}
 
- .column{ width:28%;  margin-top:-1rem;  background:white;  border-radius:3%;  box-shadow:0px 10px 25px 2px rgba(0,0,0,0.17);  text-align:center}
+ .column{ width:28%;  margin-top:-2rem;  background:white;  border-radius:3%;  box-shadow:0px 10px 25px 2px rgba(0,0,0,0.17);  text-align:center}
 
  .workOne{ margin-bottom:2rem}
 
@@ -121,6 +121,8 @@ h1{ font-size:2em;  line-height:1.1;  text-align:center;  margin-top:0.8rem}
  .exp h4, .ed h4{ padding:0;  font-size:1.2rem;  color:black}
 
  .exp h5{ font-size:0.9rem;  padding-bottom:2rem}
+ 
+ #lasth5{ font-size:0.9rem;  padding-bottom:0.2rem}
 
  .work h1{ font-size:1.2rem}
 
@@ -216,7 +218,7 @@ h1{ font-size:2em;  line-height:1.1;  text-align:center;  margin-top:0.8rem}
 
  .background h1{ font-size:1.6rem}
 
- .projectImg img, .projectImg2 img{ width:24rem;  height:60%}
+ .projectImg img, .projectImg2 img{ width:24rem;  height:55%}
 
  .video1 iframe, .video2 iframe{ height:15rem;  width:25rem}
 
