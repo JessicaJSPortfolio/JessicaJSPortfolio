@@ -46,6 +46,10 @@ nav li{ display:inline;  padding:15px 0}
 
 .description p, .description2 p{ margin:1rem}
 
+.mySlides {height: 12rem;   display: block;}
+
+.w3-content {margin: 0 auto;}
+
 nav li:hover{ background-color:rgb(255,119,153)}
 
 nav a{ display:inline-block;  text-align:center;  text-decoration:none;  width:100px;  color:rgb(95,95,95)}
@@ -74,9 +78,9 @@ nav a#openup{ display:none}
 
 .info{ display:flex;  margin:0 auto;  height:80%;  width:100%}
 
-.projectImg{ height:50vh;  flex:3;  border-right:solid white}
+.projectImg{ height:45vh;  flex:3;  border-right:solid white}
 
-.projectImg2{ height:50vh;  flex:3;  border-right:solid black}
+.projectImg2{ height:45vh;  flex:3;  border-right:solid black}
 
 .description{ margin-top:10rem;  height:30vh;  align-self:center;  border-top:solid white;  border-bottom:solid white;  border-right:solid white;  flex:1}
 

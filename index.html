@@ -72,7 +72,6 @@
                         <p>App to keep track of one's spending. User can add spendings and set goals to reach. This will be stored in the computer's storage</p>
                         <div class="buttons2">
                             <div class="button1"><a target="_blank" href="https://github.com/JessicaS97/MoneyTalk">VIEW CODE</a></div>
-                            <div class="button2"><a target="_blank" href="https://jessicas97.github.io/">VIEW WEBSITE</a></div>
                         </div>
                       </div>
                   </div>
@@ -125,6 +124,30 @@
           </div>
         </div>
     </div>
+    <div class="w3-content w3-section" style="max-width:400px">
+	
+		  <img class="mySlides" src="img/Faces.svg" style="width:100%"> 
+		  <img class="mySlides" src="img/Watermelon.svg" style="width:100%">
+		  <img class="mySlides" src="img/Pots.svg" style="width:100%">
+		  <img class="mySlides" src="img/Cake.svg" style="width:100%">
+      <img class="mySlides" src="img/coffee.svg" style="width:100%">
+		</div>
+
+		<script>
+		var myIndex = 0;
+		carousel();
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+			   x[i].style.display = "none";  
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}    
+			x[myIndex-1].style.display = "block";  
+			setTimeout(carousel, 4000); // Change image every 2 seconds
+		}
+		</script>
    <!-- Profile section -->
    <div id="profile">
       <div class="aboutMe">
@@ -178,7 +201,7 @@
           <div class="exp">
             <div class="expOne">
               <h4>Programming Skills</h4>
-              <h5 id="lasth5">HTML5, CSS3, JavaScript ES6</h5>
+              <h5 id="lasth5">JavaScript ES6, HTML5, CSS3</h5>
               <h5>MySQL, Version Control Git</h5>
             <div class="expTwo">
                 <h4>Creative</h4>
