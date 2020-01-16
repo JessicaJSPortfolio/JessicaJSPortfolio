@@ -284,6 +284,8 @@ h1{ font-size:2em;  line-height:1.1;  text-align:center;  margin-top:0.8rem}
 
  div.active{ opacity:1;  pointer-events:all;  transform:translate(-50%,-50%)}
 
+.transcript {display: flex; justify-content: center; align-items: center}
+
  .field-name input, .field-email input, .field-msg input, .field-done p{ padding-left:1rem;  background:none;  border:none;  flex:1;  outline:none;  text-align:center}
 
  @keyframes shake{ 0%{ transform:translate(-50%,-50%) rotate(0deg)}
